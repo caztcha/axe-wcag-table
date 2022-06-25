@@ -28,7 +28,7 @@ Deque Systems, Inc. の以下のドキュメントをもとに、作成してい
 <dd>Rule ID に対応する、WCAG 2.1 の達成基準の、レベル (A、AA、AAA) を記載しています。</dd>
 
 <dt>Experimental</dt>
-<dd>github.com/dequelabs/axe-core リポジトリの<a href="https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md">「Rule Descriptions」</a>において、Experimental Rules として挙げられえているルールに対して、フラグ (○印) を付しています。</dd>
+<dd><a href="https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md">github.com/dequelabs/axe-core リポジトリの「Rule Descriptions」</a>において、Experimental Rules として挙げられえているルールに対して、フラグ (○印) を付しています。</dd>
 </dl>
 
 ## axe-test.js との併用
