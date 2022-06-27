@@ -9,7 +9,7 @@ Deque Systems, Inc. の以下のドキュメントをもとに、作成してい
 - [github.com/dequelabs/axe-core リポジトリの「Rule Descriptions」](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md) 
 - [Duque University の「List of axe 4.4 Rules」](https://dequeuniversity.com/rules/axe/4.4) 
 
-## 各列の説明
+## 対照表の各列の説明
 
 <img width="1277" alt="axe-core ルールと WCAG 2.1 達成基準の対照表 (Google スプレッドシート)" src="https://user-images.githubusercontent.com/17394690/175891945-b4765baa-e605-41f9-b4d5-846ec6805639.png">
 
