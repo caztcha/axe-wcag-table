@@ -11,6 +11,8 @@ Deque Systems, Inc. の以下のドキュメントをもとに、作成してい
 
 ## 各列の説明
 
+<img width="1277" alt="axe-core ルールと WCAG 2.1 達成基準の対照表 (Google スプレッドシート)" src="https://user-images.githubusercontent.com/17394690/175891945-b4765baa-e605-41f9-b4d5-846ec6805639.png">
+
 <dl>
 <dt>SEQ</dt>
 <dd>Rule ID がいくつあるかを把握するための、通し番号です。</dd>
