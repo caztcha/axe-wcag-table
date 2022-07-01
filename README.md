@@ -43,4 +43,4 @@ Deque Systems, Inc. の以下のドキュメントをもとに、作成してい
     - 上記の VLOOKUP 関数の例は、テスト結果シートの2行目の空白セルに入力することを想定しています。
     - 「テスト結果シートの `B2` セル (当該行で axe-core Rule ID が記載されている) を、collation シートのセル範囲 `$B$2:$E$98` と照合し、axe-core Rule ID が完全一致する行があれば、collation シートの`3`列目 (WCAG 達成基準が記載されている) の内容を取得する」という意味です。
     - `FALSE` のひとつ前にある `3` を、`4` に変更すると、collation シートの`4`列目 (WCAG 達成基準のレベル) を取得することができます。<img width="1368" alt="xe-test.js のテスト結果の空白セルに「VLOOKUP(B2,collation!$B$2:$E$98,4,FALSE)」と入力" src="https://user-images.githubusercontent.com/17394690/175894388-2dc9be7c-fabe-461b-8764-39c23f6c2c27.png">
-3. VLOOKUP 関数を、すべての行にわたってコピー＆ペーストします　(上記の例の`B2` の部分は、ペーストされる行に応じて、`B3`、`B4`、`B5` ... となるはずです)。<img width="1357" alt="VLOOKUP 関数をすべての行にわたってコピー＆ペースト" src="https://user-images.githubusercontent.com/17394690/175894420-10225bbe-d3d4-4283-a991-68470d81b937.png">
+3. VLOOKUP 関数を、すべての行にわたってコピー＆ペーストします (上記の例の`B2` の部分は、ペーストされる行に応じて、`B3`、`B4`、`B5` ... となるはずです)。<img width="1357" alt="VLOOKUP 関数をすべての行にわたってコピー＆ペースト" src="https://user-images.githubusercontent.com/17394690/175894420-10225bbe-d3d4-4283-a991-68470d81b937.png">
