@@ -21,7 +21,7 @@ Deque Systems, Inc. の以下のドキュメントをもとに、作成してい
 <dd>「axe-core」の Rule ID です。</dd>
 
 <dt>概要</dt>
-<dd>Rule ID が意味するルールの、概要を記載しています。<a href="https://dequeuniversity.com/rules/axe/4.4">Duque University の「List of axe 4.4 Rules」</a>の日本語訳から引用しています　(一部、日本語訳が存在しないルールについては、私が翻訳しています)。</dd>
+<dd>Rule ID が意味するルールの、概要を記載しています。<a href="https://dequeuniversity.com/rules/axe/4.4">Duque University の「List of axe 4.4 Rules」</a>の日本語訳から引用しています (一部、日本語訳が存在しないルールについては、私が翻訳しています)。</dd>
 
 <dt>WCAG 2.1 達成基準</dt>
 <dd>Rule ID に対応する、WCAG 2.1 の達成基準を記載しています。</dd>
