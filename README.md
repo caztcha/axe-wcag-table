@@ -20,7 +20,7 @@ Deque Systems, Inc. の以下のドキュメントをもとに、作成してい
 <dd>「axe-core」の Rule ID です。</dd>
 
 <dt>Description</dt>
-<dd>Rule ID が意味するルールの説明を記載しています。[github.com/dequelabs/axe-core リポジトリの「Rule Descriptions」](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md) から引用しています。</dd>
+<dd>Rule ID が意味するルールの説明を記載しています。<a href="https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md">github.com/dequelabs/axe-core リポジトリの「Rule Descriptions」</a> から引用しています。</dd>
 
 <dt>WCAG 2.2 達成基準</dt>
 <dd>Rule ID に対応する、WCAG 2.2 の達成基準を記載しています。</dd>
