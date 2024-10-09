@@ -1,17 +1,16 @@
-# axe-core ルールと WCAG 2.1 達成基準の対照表
+# axe-core ルールと WCAG 2.2 達成基準の対照表
 
-Deque Systems, Inc. が開発、公開しているウェブアクセシビリティ検証ツール「axe」のコアエンジン「axe-core」の Rule ID と、WCAG 2.1 の達成基準の、対照表です。Google スプレッドシートで公開しています。
+Deque Systems, Inc. が開発、公開しているウェブアクセシビリティ検証ツール「axe」のコアエンジン「axe-core」の Rule ID と、WCAG 2.2 の達成基準の、対照表です。Google スプレッドシートで公開しています。
 
-- [axe-core ルールと WCAG 2.1 達成基準の対照表 (Google スプレッドシート)](https://docs.google.com/spreadsheets/d/1ihy8gqs-NP31mFk8_SFGPgFntGhtZDy-_SXh-G85vfs/edit?usp=sharing)
+- [axe-core ルールと WCAG 2.2 達成基準の対照表 (Google スプレッドシート)](https://docs.google.com/spreadsheets/d/1ihy8gqs-NP31mFk8_SFGPgFntGhtZDy-_SXh-G85vfs/edit?usp=sharing)
 
 Deque Systems, Inc. の以下のドキュメントをもとに、作成しています。
 
-- [github.com/dequelabs/axe-core リポジトリの「Rule Descriptions」](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md) 
-- [Duque University の「List of axe 4.4 Rules」](https://dequeuniversity.com/rules/axe/4.4) 
+- [github.com/dequelabs/axe-core リポジトリの「Rule Descriptions」](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md)
 
 ## 対照表の各列の説明
 
-<img width="1277" alt="axe-core ルールと WCAG 2.1 達成基準の対照表 (Google スプレッドシート)" src="https://user-images.githubusercontent.com/17394690/175891945-b4765baa-e605-41f9-b4d5-846ec6805639.png">
+<img width="1277" alt="axe-core ルールと WCAG 2.2 達成基準の対照表 (Google スプレッドシート)" src="https://user-images.githubusercontent.com/17394690/175891945-b4765baa-e605-41f9-b4d5-846ec6805639.png">
 
 <dl>
 <dt>SEQ</dt>
@@ -20,14 +19,14 @@ Deque Systems, Inc. の以下のドキュメントをもとに、作成してい
 <dt>axe-core Rule ID</dt>
 <dd>「axe-core」の Rule ID です。</dd>
 
-<dt>概要</dt>
-<dd>Rule ID が意味するルールの、概要を記載しています。<a href="https://dequeuniversity.com/rules/axe/4.4">Duque University の「List of axe 4.4 Rules」</a>の日本語訳から引用しています (一部、日本語訳が存在しないルールについては、私が翻訳しています)。</dd>
+<dt>Description</dt>
+<dd>Rule ID が意味するルールの説明を記載しています。[github.com/dequelabs/axe-core リポジトリの「Rule Descriptions」](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md) から引用しています。</dd>
 
-<dt>WCAG 2.1 達成基準</dt>
-<dd>Rule ID に対応する、WCAG 2.1 の達成基準を記載しています。</dd>
+<dt>WCAG 2.2 達成基準</dt>
+<dd>Rule ID に対応する、WCAG 2.2 の達成基準を記載しています。</dd>
 
 <dt>レベル</dt>
-<dd>Rule ID に対応する、WCAG 2.1 の達成基準の、レベル (A、AA、AAA) を記載しています。</dd>
+<dd>Rule ID に対応する、WCAG 2.2 の達成基準の、レベル (A、AA、AAA) を記載しています。</dd>
 
 <dt>Experimental</dt>
 <dd><a href="https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md">github.com/dequelabs/axe-core リポジトリの「Rule Descriptions」</a>において、Experimental Rules として挙げられえているルールに対して、フラグ (○印) を付しています。</dd>
@@ -35,7 +34,7 @@ Deque Systems, Inc. の以下のドキュメントをもとに、作成してい
 
 ## 「axe-test.js」との併用
 
-この対照表を、「[axe-test.js](https://github.com/caztcha/axe-test)」によるテスト結果にマージすることによって、テスト結果のスプレッドシートの各行に記載された個々の問題 (axe-core ルール) が、WCAG 2.1 のどの達成基準に関連するかを、見やすくすることができます。以下、その手順です。
+この対照表を、「[axe-test.js](https://github.com/caztcha/axe-test)」によるテスト結果にマージすることによって、テスト結果のスプレッドシートの各行に記載された個々の問題 (axe-core ルール) が、WCAG 2.2 のどの達成基準に関連するかを、見やすくすることができます。以下、その手順です。
 
 1. 「axe-test.js」によるテスト結果のスプレッドシート (Google スプレッドシートや Excel) と同じブックの別シート (たとえば「collation」というシート名を新規で作成します) に、この対照表をコピー&ペーストします。
     - 新規作成したシートに対照表をコピー＆ペーストする際は、いちばん左上のセル (A1) を起点にペーストします (そうすることで、下記の説明に出てくる VLOOKUP 関数をそのままお使いいただけます)。
