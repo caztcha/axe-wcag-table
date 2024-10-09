@@ -20,7 +20,7 @@ Deque Systems, Inc. の以下のドキュメントをもとに、作成してい
 <dd>「axe-core」の Rule ID です。</dd>
 
 <dt>Description</dt>
-<dd>Rule ID が意味するルールの説明を記載しています。<a href="https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md">github.com/dequelabs/axe-core リポジトリの「Rule Descriptions」</a> から引用しています。</dd>
+<dd>Rule ID が意味するルールの説明を記載しています。<a href="https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md">github.com/dequelabs/axe-core リポジトリの「Rule Descriptions」</a>から引用しています。</dd>
 
 <dt>WCAG 2.2 達成基準</dt>
 <dd>Rule ID に対応する、WCAG 2.2 の達成基準を記載しています。</dd>
@@ -29,7 +29,7 @@ Deque Systems, Inc. の以下のドキュメントをもとに、作成してい
 <dd>Rule ID に対応する、WCAG 2.2 の達成基準の、レベル (A、AA、AAA) を記載しています。</dd>
 
 <dt>Experimental</dt>
-<dd><a href="https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md">github.com/dequelabs/axe-core リポジトリの「Rule Descriptions」</a>において、Experimental Rules として挙げられえているルールに対して、フラグ (○印) を付しています。</dd>
+<dd><a href="https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md">github.com/dequelabs/axe-core リポジトリの「Rule Descriptions」</a>において、Experimental Rules として挙げられているルールに対して、フラグ (○印) を付しています。</dd>
 </dl>
 
 ## 「axe-test.js」との併用
