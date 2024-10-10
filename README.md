@@ -38,7 +38,7 @@ Deque Systems, Inc. の以下のドキュメントをもとに、作成してい
 
 1. 「axe-test.js」によるテスト結果のスプレッドシート (Google スプレッドシートや Excel) と同じブックの別シート (たとえば「collation」というシート名を新規で作成します) に、この対照表をコピー&ペーストします。
     - 新規作成したシートに対照表をコピー＆ペーストする際は、いちばん左上のセル (A1) を起点にペーストします (そうすることで、下記の説明に出てくる VLOOKUP 関数をそのままお使いいただけます)。
-2. テスト結果シート各行の空白セルに、VLOOKUP 関数を入力します (例 : 「`=VLOOKUP(B2,collation!$B$2:$E$98,3,FALSE)`」)。<img width="1368" alt="axe-test.js のテスト結果の空白セルに「VLOOKUP(B2,collation!$B$2:$E$101,3,FALSE)」と入力" src="https://user-images.githubusercontent.com/17394690/175894361-ee731938-88d4-4818-b551-e8756396fffa.png">
+2. テスト結果シート各行の空白セルに、VLOOKUP 関数を入力します (例 : 「`=VLOOKUP(B2,collation!$B$2:$E$101,3,FALSE)`」)。<img width="1368" alt="axe-test.js のテスト結果の空白セルに「VLOOKUP(B2,collation!$B$2:$E$101,3,FALSE)」と入力" src="https://user-images.githubusercontent.com/17394690/175894361-ee731938-88d4-4818-b551-e8756396fffa.png">
     - 上記の VLOOKUP 関数の例は、テスト結果シートの2行目の空白セルに入力することを想定しています。
     - 「テスト結果シートの `B2` セル (当該行で axe-core Rule ID が記載されている) を、collation シートのセル範囲 `$B$2:$E$101` と照合し、axe-core Rule ID が完全一致する行があれば、collation シートの`3`列目 (WCAG 達成基準が記載されている) の内容を取得する」という意味です。
     - `FALSE` のひとつ前にある `3` を、`4` に変更すると、collation シートの`4`列目 (WCAG 達成基準のレベル) を取得することができます。<img width="1368" alt="xe-test.js のテスト結果の空白セルに「VLOOKUP(B2,collation!$B$2:$E$98,4,FALSE)」と入力" src="https://user-images.githubusercontent.com/17394690/175894388-2dc9be7c-fabe-461b-8764-39c23f6c2c27.png">
