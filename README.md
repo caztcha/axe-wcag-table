@@ -10,7 +10,7 @@ Deque Systems, Inc. の以下のドキュメントをもとに、作成してい
 
 ## 対照表の各列の説明
 
-<img width="1277" alt="axe-core ルールと WCAG 2.2 達成基準の対照表 (Google スプレッドシート)" src="https://user-images.githubusercontent.com/17394690/175891945-b4765baa-e605-41f9-b4d5-846ec6805639.png">
+<img width="1286" alt="axe-core ルールと WCAG 2.2 達成基準の対照表 (Google スプレッドシート)" src="https://github.com/user-attachments/assets/1cb40677-dfce-4bb2-b5d9-6686507ec4cd">
 
 <dl>
 <dt>SEQ</dt>
