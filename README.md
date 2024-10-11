@@ -4,11 +4,9 @@ Deque Systems, Inc. が開発、公開しているウェブアクセシビリテ
 
 - [axe-core ルールと WCAG 2.2 達成基準の対照表 (Google スプレッドシート)](https://docs.google.com/spreadsheets/d/1ihy8gqs-NP31mFk8_SFGPgFntGhtZDy-_SXh-G85vfs/edit?usp=sharing)
 
-Deque Systems, Inc. の以下のドキュメントをもとに、作成しています。
+Deque Systems の axe-core リポジトリの「[Rule Descriptions](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md)」をもとに作成しています。各 Rule ID は、axe-core 4.10.0 で定義されているものです。
 
-- [github.com/dequelabs/axe-core リポジトリの「Rule Descriptions」](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md)
-
-この対照表は、「[axe-test.js](https://github.com/caztcha/axe-test)」(axe-core を利用して、ウェブサイトのアクセシビリティ自動テストを一括的に実行するためのスクリプト) のテスト結果と併用することを想定して制作しました。下記の [「axe-test.js」との併用](#axe-testjsとの併用) をご参照ください。
+この対照表は、「[axe-test.js](https://github.com/caztcha/axe-test)」(axe-core を利用して、ウェブサイトのアクセシビリティ自動テストを一括的に実行するためのスクリプト) のテスト結果と併用することを想定しています。詳しくは下記の [「axe-test.js」との併用](#axe-testjsとの併用) をご参照ください。
 
 
 ## 対照表の各列の説明
@@ -46,3 +44,5 @@ Deque Systems, Inc. の以下のドキュメントをもとに、作成してい
     - 「テスト結果シートの `B2` セル (当該行で axe-core Rule ID が記載されている) を、collation シートのセル範囲 `$B$2:$E$101` と照合し、axe-core Rule ID が完全一致する行があれば、collation シートの`3`列目 (WCAG 達成基準が記載されている) の内容を取得する」という意味です。
     - `FALSE` のひとつ前にある `3` を、`4` に変更すると、collation シートの`4`列目 (WCAG 達成基準のレベル) を取得することができます。<img width="1368" alt="xe-test.js のテスト結果の空白セルに「VLOOKUP(B2,collation!$B$2:$E$98,4,FALSE)」と入力" src="https://github.com/user-attachments/assets/b85706c0-7658-4888-8ed4-70c11a50f766">
 3. VLOOKUP 関数を、すべての行にわたってコピー＆ペーストします (上記の例の `B2` の部分は、ペーストされる行に応じて、`B3`、`B4`、`B5` ... となるはずです)。<img width="1357" alt="VLOOKUP 関数をすべての行にわたってコピー＆ペースト" src="https://github.com/user-attachments/assets/42147db0-bce0-4e82-80c4-6ae82771aaa2">
+
+以上
