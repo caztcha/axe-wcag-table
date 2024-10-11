@@ -45,4 +45,6 @@ Deque Systems の axe-core リポジトリの「[Rule Descriptions](https://gith
     - `FALSE` のひとつ前にある `3` を、`4` に変更すると、collation シートの`4`列目 (WCAG 達成基準のレベル) を取得することができます。<img width="1368" alt="xe-test.js のテスト結果の空白セルに「VLOOKUP(B2,collation!$B$2:$E$98,4,FALSE)」と入力" src="https://github.com/user-attachments/assets/b85706c0-7658-4888-8ed4-70c11a50f766">
 3. VLOOKUP 関数を、すべての行にわたってコピー＆ペーストします (上記の例の `B2` の部分は、ペーストされる行に応じて、`B3`、`B4`、`B5` ... となるはずです)。<img width="1357" alt="VLOOKUP 関数をすべての行にわたってコピー＆ペースト" src="https://github.com/user-attachments/assets/42147db0-bce0-4e82-80c4-6ae82771aaa2">
 
+---
+
 以上
