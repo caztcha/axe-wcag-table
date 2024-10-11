@@ -8,6 +8,9 @@ Deque Systems, Inc. の以下のドキュメントをもとに、作成してい
 
 - [github.com/dequelabs/axe-core リポジトリの「Rule Descriptions」](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md)
 
+「[axe-test.js](https://github.com/caztcha/axe-test)」(axe-core を利用して、ウェブサイトのアクセシビリティ自動テストを一括的に実行するためのスクリプト) のテスト結果と併用することを想定して開発しました。下記の [「axe-test.js」との併用](#axe-testjsとの併用) をご参照ください。
+
+
 ## 対照表の各列の説明
 
 <img width="1286" alt="axe-core ルールと WCAG 2.2 達成基準の対照表 (Google スプレッドシート)" src="https://github.com/user-attachments/assets/1cb40677-dfce-4bb2-b5d9-6686507ec4cd">
