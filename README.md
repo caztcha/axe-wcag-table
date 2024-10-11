@@ -4,7 +4,7 @@ Deque Systems, Inc. が開発、公開しているウェブアクセシビリテ
 
 - [axe-core ルールと WCAG 2.2 達成基準の対照表 (Google スプレッドシート)](https://docs.google.com/spreadsheets/d/1ihy8gqs-NP31mFk8_SFGPgFntGhtZDy-_SXh-G85vfs/edit?usp=sharing)
 
-Deque Systems の [Rule Descriptions](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md) をもとに作成しています。各 Rule ID は、axe-core のバージョン 4.10.0 で定義されているものです。
+Deque Systems の axe-core リポジトリの「[Rule Descriptions](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md)」をもとに作成しています。各 Rule ID は、axe-core のバージョン 4.10.0 で定義されているものです。
 
 この対照表は、「[axe-test.js](https://github.com/caztcha/axe-test)」(axe-core を利用して、ウェブサイトのアクセシビリティ自動テストを一括的に実行するためのスクリプト) のテスト結果と併用することを想定しています。詳しくは下記の [「axe-test.js」との併用](#axe-testjsとの併用) をご参照ください。
 
@@ -30,7 +30,7 @@ Deque Systems の [Rule Descriptions](https://github.com/dequelabs/axe-core/blob
 <dd>Rule ID に対応する、WCAG 2.2 の達成基準の、レベル (A、AA、AAA) を記載しています。</dd>
 
 <dt>Experimental</dt>
-<dd>Deque Systems の axe-core リポジトリの「[Rule Descriptions](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md)」において、Experimental Rules として挙げられているルールに対して、フラグ (○印) を付しています。</dd>
+<dd>Deque Systems の [Rule Descriptions](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md) において、Experimental Rules として挙げられているルールに対して、フラグ (○印) を付しています。</dd>
 </dl>
 
 ## 「axe-test.js」との併用
